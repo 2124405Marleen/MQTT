@@ -9,7 +9,7 @@ public class MQTTConfig {
     private String MQTT_BROKER_URL = "tcp://test.mosquitto.org:1883";
 
     // De topic welke in de app gebruikt wordt, aanpassen naar wens maar wel uniek
-    private String MQTT_TOPIC = "TI142018/A1/LED";
+    private String MQTT_TOPIC = "TI-14-2019/LED";
 
     // Elke client connect met een unieke client_id. Aanpassen voor elk device! (auto
     // generate in constructor?
