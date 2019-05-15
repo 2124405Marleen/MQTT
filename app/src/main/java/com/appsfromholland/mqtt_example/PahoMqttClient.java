@@ -75,8 +75,8 @@ public class PahoMqttClient {
         mqttConnectOptions.setCleanSession(false);
         mqttConnectOptions.setAutomaticReconnect(true);
         //mqttConnectOptions.setWill(Constants.PUBLISH_TOPIC, "I am going offline".getBytes(), 1, true);
-        //mqttConnectOptions.setUserName("ngbllzzy");
-        //mqttConnectOptions.setPassword("WtjhZKl3OPoK".toCharArray());
+        mqttConnectOptions.setUserName("emon");
+        mqttConnectOptions.setPassword("uw2ELjAKrEUwqgLT".toCharArray());
         return mqttConnectOptions;
     }
 

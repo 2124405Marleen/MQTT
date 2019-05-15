@@ -6,10 +6,12 @@ public class MQTTConfig {
 
     // Onze broker: test.mosquitto.org is een broker voor exprimenten, niet voor
     // productie of hoge volume
-    private String MQTT_BROKER_URL = "tcp://test.mosquitto.org:1883";
+    //private String MQTT_BROKER_URL = "tcp://test.mosquitto.org:1883";
+    private String MQTT_BROKER_URL = "tcp://51.254.217.43:1883";
+
 
     // De topic welke in de app gebruikt wordt, aanpassen naar wens maar wel uniek
-    private String MQTT_TOPIC = "TI-14-2019/LED";
+    private String MQTT_TOPIC = "LEDvanWaylon";
 
     // Elke client connect met een unieke client_id. Aanpassen voor elk device! (auto
     // generate in constructor?
